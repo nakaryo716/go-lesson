@@ -7,5 +7,4 @@ check: fmt
 		goimports -l -w .
 
 run: check
-		go mod tidy
-		go build
+		go run hello.go
