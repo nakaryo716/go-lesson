@@ -34,3 +34,17 @@ var intPi int = int(pi)
 
 ```
 It is same of rust code ```{value} as i32```
+
+## Switch Control
+It is useful ```match``` in Rust code.  
+In Go code, I can use ```switch```. However, I dont have to write ```break```
+```go
+swtich text {
+case "darwin":
+    fmt.println("Mac")
+case "linux":
+    fmt.println("Linux")
+default:
+    fmt.println("Windows")
+} 
+``` 

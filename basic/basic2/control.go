@@ -20,5 +20,15 @@ func IfControl(number int) {
 	} else {
 		fmt.Println("over 100")
 	}
+}
 
+func SwitchContorol(os string) {
+	switch os {
+	case "darwin":
+		fmt.Println("Mac OS X")
+	case "linux":
+		fmt.Println("Linux Kernel")
+	default:
+		fmt.Println("Windows")
+	}
 }
